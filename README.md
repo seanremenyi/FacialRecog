@@ -58,6 +58,29 @@ The application will use the following tech stack along with each tech's purpose
 ![data flow diagram](docs/FRinfra.png)
 
 
+The Infrastructure is as follows:
+- The application and database will be hosted on the AWS cloud in the ap-southeast-2 region
+- In a created virtual private cloud in Availability Zone A, there will be 2 configured subnets, one public and one private
+- The private subnet will house the database and the public subnet will house the application and other configurations
+- The subnets will be able to communicate with the internet and users through an internet gateway on the VPC
+- The public subnet will be able to interact with th internet gateway directly (and routing tables will be configured)
+- The private subnet will be able to communicate outbound to the the internet through the use of a NAT gateway in the public subnet and attached to the internet gateway.
+- For inbound traffic, the application EC2 will also serve as a jumpbox.
+- The private subnet will house an EC2 with a postgreSQL server on it for the applications database
+- The application consists of javascript's Vue for the front end and Flask for the web framework
+- This application EC2 sits behind an application load balancer
+- This application EC2 also will sit within an Auto Scaling Group, if the application starts getting many requests, another EC2 with the same launch template will be spun up.
+- When more than one EC2 is running the load balancer will direct traffic to make sure neither EC2 is bein overloaded with requests.
+
+
+
+
+
+
+
+
+
+
 
 
 
