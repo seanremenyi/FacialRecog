@@ -50,9 +50,10 @@ The application will use the following tech stack along with each tech's purpose
 - **HTML/CSS** used for website content and styling
 - **AWS S3** used for image hosting
 - **AWS Frameworks** used for hosting the application in the cloud
+- **Marshmallow** used as an ORM
 
 #### Dataflow Diagram
-![data flow diagram](docs/FRdataflow.png)
+![infrastructure diagram](docs/FRdataflow.png)
 
 #### Application Architecture
 ![data flow diagram](docs/FRinfra.png)
@@ -67,14 +68,19 @@ The Infrastructure is as follows:
 - The private subnet will be able to communicate outbound to the the internet through the use of a NAT gateway in the public subnet and attached to the internet gateway.
 - For inbound traffic, the application EC2 will also serve as a jumpbox.
 - The private subnet will house an EC2 with a postgreSQL server on it for the applications database
-- The application consists of javascript's Vue for the front end and Flask for the web framework
+- The application consists of javascript's Vue for templating, HTML/CSS for front end, Flask for the web framework and Marshmallow as an ORM 
 - This application EC2 sits behind an application load balancer
 - This application EC2 also will sit within an Auto Scaling Group, if the application starts getting many requests, another EC2 with the same launch template will be spun up.
-- When more than one EC2 is running the load balancer will direct traffic to make sure neither EC2 is bein overloaded with requests.
+- When more than one EC2 is running the load balancer will direct traffic to make sure neither EC2 is being overloaded with requests.
+- All security group configurations will be appropriately configured.
 
+#### User Stories
 
+**Brainstorming**
+![brainstorming user stories](docs/brainstorming.PNG)
 
-
+**Revised**
+![revised user stories](docs/revised.PNG)
 
 
 
