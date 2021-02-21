@@ -87,19 +87,29 @@ The Infrastructure is as follows:
 **1. Login Page**
 ![login page](docs/wireframes/login.png)
 
-**2. Incorrect Password Page**
+This is the landing page of the web application. Users will be able to sign in with their username and password or have the option to enter a new username and password and hit create account. The title of the application is displayed on every page as well as a link with my name on it taking the user to my portfolio website.
+
+**2. Unssucessful Pages**
 ![incorrect password](docs/wireframes/incorrectpassword.png)
+
+![username taken](docs/wireframes/usernametaken.png)
+
+There's 2 possible errors from the landing page, either a user will try to sign in and have the incorrect password or someone tries to create an account with a username that is already taken. In either case an error page will be displayed depending on the issue.
 
 **3. Upload Page**
 ![upload](docs/wireframes/upload.png)
 
+Once successfully logged on the user will be brought to a page to upload an image. 
+
 **4. Preview**
 ![preview](docs/wireframes/preview.png)
+
+Once the image is uploaded, a preview of the image will appear and the user will be able to press scan to coninue with the facial recognition or upload a different image.
 
 **5. output**
 ![output](docs/wireframes/output.png)
 
-
+The finl page will again have the preview of the image however next to it will have all the metrics obtained from Rekognition deisplayed next to it.
 
 
 
