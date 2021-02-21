@@ -6,7 +6,7 @@ The purpose of this application is to give users an easy to use web application 
 
 #### Functionality/Features
 
-The application will function by leveraging several services from AWS. Users will create an account to login into the application. From there they will be able to upload images. The images will be uploaded to an S3 bucket and then passed onto one of the machine learning services available on AWS called Rekognition. This service will regonize facial features of the person in the image and output the data back to an S3 bucket from which the application will grab it and display it to the user.
+The application will function by leveraging several services from AWS. Users will create an account to login into the application. Password hashing will be used to secure password details in the database. To start a session user's with accounts will need a JSON web token which will be obtained upon a successful login of a user. From there they will be able to upload images. The images will be uploaded to an S3 bucket and then passed onto one of the machine learning services available on AWS called Rekognition. This service will regonize facial features of the person in the image and output the data back to an S3 bucket from which the application will grab it and display it to the user. As a way to monitor any untoward activity, if ever rekognition sees an image that it's less than 50% sure contains a face, it wil trigger a lambda function which will in turn use AWS' SNS service to send the admin an email for further investigation.
 
 At the moment the MVP (minimal viable product) will be using a basic Rekognition feature which will recognize a face in an image and output metrics to answer the following questions,
 1. How confident Rekognition is that it is a face in the image
@@ -54,8 +54,8 @@ The application will use the following tech stack along with each tech's purpose
 #### Dataflow Diagram
 ![data flow diagram](docs/FRdataflow.png)
 
-
-
+#### Application Architecture
+![data flow diagram](docs/FRinfra.png)
 
 
 
