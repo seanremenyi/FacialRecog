@@ -115,7 +115,7 @@ The final page will again have the preview of the image however next to it will 
 
 This project will adopt an agile workflow. I will be planning 2 spints. One for planning and design and the other for development and testing. I will be using Trello boards to keep track of each task as well as any blockers that my arise.
 
-##### Design/Planning Sprint
+##### Sprint 1
 
 **Feb. 14th 11:00AM**
 ![day1](docs/workflow/s1d2.PNG)
@@ -129,8 +129,10 @@ This project will adopt an agile workflow. I will be planning 2 spints. One for 
 **Feb. 20th 9:00PM**
 ![day4](docs/workflow/s1d5.PNG)
 
+##### Sprint 2
 
-
+**Feb. 21st 5:00 PM**
+![day5](docs/workflow/s2d1.PNG)
 
 
 
