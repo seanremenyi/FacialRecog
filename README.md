@@ -1,5 +1,8 @@
 # Facial Recognition Application
 
+https://github.com/seanremenyi/FacialRecog
+
+
 #### Purpose
 
 The purpose of this application is to give users an easy to use web application to do facial analysis on images.
@@ -113,7 +116,7 @@ The final page will again have the preview of the image however next to it will 
 
 #### Workflow
 
-This project will adopt an agile workflow. I will be planning 2 spints. One for planning and design and the other for development and testing. I will be using Trello boards to keep track of each task as well as any blockers that my arise.
+This project will adopt an agile workflow. I will be planning 2 spints. One for planning and design and will carry over 2 weeks and the other for development and testing which will take 3 weeks. I will be using Trello boards to keep track of each task as well as any blockers that my arise.
 
 ##### Sprint 1
 
