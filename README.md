@@ -109,9 +109,25 @@ Once the image is uploaded, a preview of the image will appear and the user will
 **5. output**
 ![output](docs/wireframes/output.png)
 
-The finl page will again have the preview of the image however next to it will have all the metrics obtained from Rekognition deisplayed next to it.
+The final page will again have the preview of the image however next to it will have all the metrics obtained from Rekognition deisplayed next to it.
 
+#### Workflow
 
+This project will adopt an agile workflow. I will be planning 2 spints. One for planning and design and the other for development and testing. I will be using Trello boards to keep track of each task as well as any blockers that my arise.
+
+##### Design/Planning Sprint
+
+**Feb. 14th 11:00AM**
+![day1](docs/workflow/s1d2.PNG)
+
+**Feb. 15th 6:00PM**
+![day2](docs/workflow/s1d3.PNG)
+
+**Feb. 18th 10:00PM**
+![day3](docs/workflow/s1d4.PNG)
+
+**Feb. 20th 9:00PM**
+![day4](docs/workflow/s1d5.PNG)
 
 
 
