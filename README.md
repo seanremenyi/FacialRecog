@@ -87,6 +87,17 @@ The Infrastructure is as follows:
 **1. Login Page**
 ![login page](docs/wireframes/login.png)
 
+**2. Incorrect Password Page**
+![incorrect password](docs/wireframes/incorrectpassword.png)
+
+**3. Upload Page**
+![upload](docs/wireframes/upload.png)
+
+**4. Preview**
+![preview](docs/wireframes/preview.png)
+
+**5. output**
+![output](docs/wireframes/output.png)
 
 
 
