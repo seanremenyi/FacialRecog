@@ -51,7 +51,8 @@ The application will use the following tech stack along with each tech's purpose
 - **AWS S3** used for image hosting
 - **AWS Frameworks** used for hosting the application in the cloud
 
-
+#### Dataflow Diagram
+![data flow diagram](./FRdataflow.png)
 
 
 
