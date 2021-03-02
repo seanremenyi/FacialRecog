@@ -1,9 +1,1 @@
-html {
-  background-color:rgba(7, 7, 7, 0.852);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100%;
-  font-family: 'Poppins', sans-serif;
-  color:white;
-}
+html { font-family: sans-serif; background: #eee; padding: 1rem; }
