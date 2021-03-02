@@ -15,7 +15,6 @@ s3 = boto3.client(
 
 
 app = Flask(__name__)
-from werkzeug.utils import secure_filename
 Bootstrap(app)
 app.secret_key= 'secret'
 app.jinja_env.filters['datetimeformat'] = datetimeformat
